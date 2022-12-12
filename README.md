@@ -28,3 +28,25 @@ print("Following is the Breadth-First Search")<br>
 bfs(visited,graph,'1')<br>
 # OUTPUT:-<br>
 ![image](https://user-images.githubusercontent.com/119857004/207017267-ef7f17f9-2e17-4e6e-b089-a513297d83ab.png)<br>
+# 2. DEPTH FIRST SEARCH<br>
+graph={<br>
+    '5':['3','7'],<br>
+    '3':['2','4'],<br>
+    '7':['6'],<br>
+    '6':[],<br>
+    '2':['1'],<br>
+    '1':[],<br>
+    '4':['8'],<br>
+    '8':[]   <br> 
+}<br>
+visited=set()<br>
+def dfs(visited,graph,node):<br>
+    if node not in visited:<br>
+        print(node)<br>
+        visited.add(node)<br>
+        for neighbour in graph[node]:<br>
+            dfs(visited,graph,neighbour)<br>
+print("Following is the Depth-First Search")<br>
+dfs(visited,graph,'5')<br>
+# OUTPUT:-
+![image](https://user-images.githubusercontent.com/119857004/207017930-64eafcc6-ff24-4860-992d-523f92e8632e.png)<b>
