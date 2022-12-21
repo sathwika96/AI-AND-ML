@@ -112,13 +112,13 @@ print("Steps: ") <br>
 waterJugSolver(0, 0)<br>
 ![image](https://user-images.githubusercontent.com/119857004/208891624-47f598c6-de1a-4454-9322-629948291cfe.png)<br>
 # 5.TOWER OF HANOI<br>
-    def TowerOfHanoi(n , source, destination, auxiliary): <br>
-    if n==1: <br>
-        print ("Move disk 1 from source",source,"to destination",destination) <br>
-        return <br>
-    TowerOfHanoi(n-1, source, auxiliary, destination) <br>
-    print ("Move disk",n,"from source",source,"to destination",destination) <br>
-    TowerOfHanoi(n-1, auxiliary, destination, source) <br>
-n = 3 <br>
-TowerOfHanoi(n,'A','B','C') <br>
+    def TowerOfHanoi(n , source, destination, auxiliary):<br>
+    if n==1:<br>
+        print ("Move disk 1 from source",source,"to destination",destination)<br>
+        return<br>
+    TowerOfHanoi(n-1, source, auxiliary, destination)<br>
+    print ("Move disk",n,"from source",source,"to destination",destination)<br>
+    TowerOfHanoi(n-1, auxiliary, destination, source)<br>
+n = 3<br>
+TowerOfHanoi(n,'A','B','C')<br>
 
