@@ -54,7 +54,7 @@ dfs(visited,graph,'5')<br>
 from queue import PriorityQueue <br>
 import matplotlib.pyplot as plt <br>
 import networkx as nx <br>
-# for implementing BFS | returns path having lowest cost<br>
+for implementing BFS | returns path having lowest cost<br>
 def best_first_search(source, target, n): <br>
     visited = [0] * n <br>
     visited[source] = True <br>
@@ -70,7 +70,7 @@ def best_first_search(source, target, n): <br>
                     visited[v] = True <br>
                     pq.put((c, v)) <br>
                     #print() <br>
-# for adding edges to graph <br>
+for adding edges to graph <br>
 def addedge(x, y, cost): <br>
     graph[x].append((y, cost)) <br>
     graph[y].append((x, cost))<br>
@@ -86,3 +86,4 @@ source = int(input("Enter the Source Node: "))<br>
 target = int(input("Enter the Target/Destination Node: ")) <br>
 print("\nPath: ", end = "") <br>
 best_first_search(source, target, v) <br>
+![image](https://user-images.githubusercontent.com/119857004/208890992-33082048-655f-4375-a7e3-b628f2019aec.png)<br>
