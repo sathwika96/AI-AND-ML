@@ -110,3 +110,4 @@ def waterJugSolver(amt1, amt2): <br>
         return False <br>
 print("Steps: ") <br>
 waterJugSolver(0, 0)<br>
+![image](https://user-images.githubusercontent.com/119857004/208891624-47f598c6-de1a-4454-9322-629948291cfe.png)<br>
