@@ -87,3 +87,26 @@ target = int(input("Enter the Target/Destination Node: ")) <br>
 print("\nPath: ", end = "") <br>
 best_first_search(source, target, v) <br>
 ![image](https://user-images.githubusercontent.com/119857004/208890992-33082048-655f-4375-a7e3-b628f2019aec.png)<br>
+# 4.WATER JUG<br>
+    from collections import defaultdict <br>
+jug1, jug2, aim = 4, 3, 2 <br>
+visited = defaultdict(lambda: False) <br>
+def waterJugSolver(amt1, amt2): <br>
+    if (amt1 == aim and amt2 == 0) or (amt2 == aim and amt1 == 0):  <br>
+        print(amt1, amt2) <br>
+        return True <br>
+    if visited[(amt1, amt2)] == False: <br>
+        print(amt1, amt2) <br>
+        visited[(amt1, amt2)] = True <br>
+        return (waterJugSolver(0, amt2) or <br>
+                waterJugSolver(amt1, 0) or <br>
+                waterJugSolver(jug1, amt2) or <br>
+                waterJugSolver(amt1, jug2) or <br>
+                waterJugSolver(amt1 + min(amt2, (jug1-amt1)), <br>
+                               amt2 - min(amt2, (jug1-amt1))) or <br>
+                waterJugSolver(amt1 - min(amt1, (jug2-amt2)),<br> 
+                               amt2 + min(amt1, (jug2-amt2)))) <br>
+    else: <br>
+        return False <br>
+print("Steps: ") <br>
+waterJugSolver(0, 0)<br>
