@@ -88,7 +88,7 @@ print("\nPath: ", end = "") <br>
 best_first_search(source, target, v) <br>
 ![image](https://user-images.githubusercontent.com/119857004/208890992-33082048-655f-4375-a7e3-b628f2019aec.png)<br>
 # 4.WATER JUG<br>
-    from collections import defaultdict <br>
+from collections import defaultdict <br>
 jug1, jug2, aim = 4, 3, 2 <br>
 visited = defaultdict(lambda: False) <br>
 def waterJugSolver(amt1, amt2): <br>
