@@ -111,6 +111,8 @@ def waterJugSolver(amt1, amt2): <br>
 print("Steps: ") <br>
 waterJugSolver(0, 0)<br>
 ![image](https://user-images.githubusercontent.com/119857004/208891624-47f598c6-de1a-4454-9322-629948291cfe.png)<br>
+    
+    
 # 5.TOWER OF HANOI<br>
     def TowerOfHanoi(n , source, destination, auxiliary):<br>
     if n==1:<br>
