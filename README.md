@@ -121,4 +121,5 @@ waterJugSolver(0, 0)<br>
 TowerOfHanoi(n-1, auxiliary, destination, source)<br>
 n = 3<br>
 TowerOfHanoi(n,'A','B','C')<br>
+![image](https://user-images.githubusercontent.com/119857004/208893011-3d52f2ce-fecf-48df-a0ce-269d46220f30.png)<br>
 
