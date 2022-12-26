@@ -219,7 +219,7 @@ def play_game():<br>
 print("Winner is: " + str(play_game()))<br>
 ![image](https://user-images.githubusercontent.com/119857004/209536796-c5e9c2e3-7d21-4e52-a160-79d14530d5d4.png)<br>
 # 7.TRAVELLING SALESAMN PROBLEM<br>
-    from sys import maxsize<br>
+from sys import maxsize<br>
 from itertools import permutations<br>
 v=4<br>
 def travellingSalesmanProblem(graph, s):<br>
@@ -243,3 +243,4 @@ if __name__=="__main__":<br>
            [15,35,0,30],[20,25,30,0]]<br>
     s = 0<br>
     print(travellingSalesmanProblem(graph, s))<br>
+![image](https://user-images.githubusercontent.com/119857004/209537491-9d9fe0c8-5b52-4473-880b-57cb0c166050.png)<br>
