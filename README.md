@@ -248,3 +248,4 @@ A**PROBLEM<br>
 ![image](https://user-images.githubusercontent.com/119857004/210222678-151ce8e5-c283-4f09-8452-9516e6776c9e.png)<br>
 <br>
 https://github.com/ruchi-032/heart_disease_prediction_LogisticRegression/blob/master/Heart_disease_prediction_LogisticRegression.ipynb<br>
+https://www.academia.edu/42249626/Mini_Project_Report_On_Heart_Disease_Prediction_<br>
