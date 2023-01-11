@@ -246,3 +246,5 @@ if __name__=="__main__":<br>
 ![image](https://user-images.githubusercontent.com/119857004/209537491-9d9fe0c8-5b52-4473-880b-57cb0c166050.png)<br>
 A**PROBLEM<br>
 ![image](https://user-images.githubusercontent.com/119857004/210222678-151ce8e5-c283-4f09-8452-9516e6776c9e.png)<br>
+<br>
+https://github.com/ruchi-032/heart_disease_prediction_LogisticRegression/blob/master/Heart_disease_prediction_LogisticRegression.ipynb<br>
